@@ -13,7 +13,7 @@ starting: npm run start (does not do much)
 ```javascript
 //adding services
 const c = IOCContainer()
-c.add('MY_SERVICE_NAME', ( g ) => new MyService( g('MY_DEPENDENCY_NAME') ))
+c.add('MY_SERVICE_NAME', get => new MyService( get('MY_DEPENDENCY_NAME') ))
 
 //retrieval
 c.get('MY_SERVICE_NAME')
