@@ -5,7 +5,9 @@ This repo was written in response to a prompt to build a simple IoC library in j
 ## Running
 
 testing: npm run test
+
 building: npm run build
+
 starting: npm run start (does not do much)
 
 ## Usage
